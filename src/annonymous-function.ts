@@ -1,9 +1,9 @@
 export {};
 
 // 関数自体の型をVSCodeの表示通りにアノテーションしてあげる
-let bmi: (height: number, weight: number) => number = function(
+const bmi: (height: number, weight: number) => number = function(
   height: number,weight: number): number {
-  return weight / (height * height);
-}
+     return weight / (height * height);
+    };
 
-console.log(bmi(1.78,73))
+console.log(bmi(1.78,73));
