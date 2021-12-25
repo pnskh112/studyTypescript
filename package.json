@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/pnskh112/studyTypescript/issues"
   },
-  "homepage": "https://github.com/pnskh112/studyTypescript#readme"
+  "homepage": "https://github.com/pnskh112/studyTypescript#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
 }
