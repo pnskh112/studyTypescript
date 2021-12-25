@@ -1,31 +1,41 @@
 # studyTypescript
-typescript学習用
-# tscコマンド
 
-tscコマンドでトランスパイル実行できる
-また、npxコマンドも実行できる
+typescript 学習用
+
+# tsc コマンド
+
+tsc コマンドでトランスパイル実行できる
+また、npx コマンドも実行できる
 
 ```
   npx tsc src/install-typescript.ts
 ```
 
-ts-nodeライブラリをいれれば、下記でトランスパイルと実行まで行ってくれる。
+ts-node ライブラリをいれれば、下記でトランスパイルと実行まで行ってくれる。
+
 ```
   npx ts-node src/install-typescript.ts
 ```
 
-ts-node-devらぶらりを入れれば、下記でホットリロードできる
+ts-node-dev らぶらりを入れれば、下記でホットリロードできる
+
 ```
   npx ts-node-dev --respawn src/install-typescript.ts
 ```
 
+# npm TIPS
+
+```
+npm info xxx
+npm install --save-dev xxx@x.x.x
+```
 
 # git TIPS
 
-下記で、直前のブランチの情報をmerge することができる
+下記で、直前のブランチの情報を merge することができる
+
 ```
 git switch main
 git fetch
 git merge -
 ```
-
