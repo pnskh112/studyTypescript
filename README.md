@@ -30,6 +30,13 @@ npm info xxx
 npm install --save-dev xxx@x.x.x
 ```
 
+```eslint
+/* lintチェック */
+npx eslint --fix src/allow-function.ts
+/* 修正するとき */
+npx eslint --fix src/allow-function.ts
+```
+
 # git TIPS
 
 下記で、直前のブランチの情報を merge することができる
