@@ -14,6 +14,12 @@ ts-nodeライブラリをいれれば、下記でトランスパイルと実行�
   npx ts-node src/install-typescript.ts
 ```
 
+ts-node-devらぶらりを入れれば、下記でホットリロードできる
+```
+  npx ts-node-dev --respawn src/install-typescript.ts
+```
+
+
 # git TIPS
 
 下記で、直前のブランチの情報をmerge することができる
