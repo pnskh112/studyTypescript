@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx ts-node-dev --respawn"
+    "dev": 
+      "git checkout -b feature/$npm_config_src && echo 'export {};' > src/$npm_config_src.ts && npx ts-node-dev --respawn src/$npm_config_src.ts"
   },
   "repository": {
     "type": "git",
