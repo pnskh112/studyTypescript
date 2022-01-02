@@ -6,5 +6,5 @@ class Person {
   constructor(public name: string, protected age: number) {}
 }
 
-const me = new Person('ハmさん', 43);
+const me = new Person("ハmさん", 43);
 console.log(me);
